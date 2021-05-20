@@ -1,0 +1,212 @@
+p1 
+{
+    color:#357F70;
+}
+p2 
+{
+   
+    color:#060807;
+}
+
+p3 
+{
+    color:#7C7D75;
+}
+
+p4
+{
+    color:#FAFAF8 ;
+}
+
+#blockAA
+{
+    background-color:#357F70;
+}
+
+#blockAAA
+{
+    background-color:#E6E7E2 ;
+}
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover1 {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(20, 119, 73);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover2 {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: rgb(20, 119, 73);
+  background: rgb(20, 119, 73);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: white;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover1:before {
+  content: '';
+  background: linear-gradient(45deg, #82e0a1, #4ed189, #0cdf64, #38634f, #1e4920, #068b2e, #12b90c);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover1:active {
+  color: white;
+}
+
+.glow-on-hover1:active:after {
+  background: transparent;
+}
+
+.glow-on-hover1:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover1:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(66, 128, 102);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover2:before {
+  content: '';
+  background: linear-gradient(45deg, #82e0a1, #4ed189, #0cdf64, #38634f, #1e4920, #068b2e, #12b90c);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover2:active {
+  color: #1e4920;
+}
+
+.glow-on-hover2:active:after {
+  background: transparent;
+}
+
+.glow-on-hover2:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover2:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

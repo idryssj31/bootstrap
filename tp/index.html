@@ -5,37 +5,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="javascript.js"></script>
     <meta charset="utf-8">
     <title>boostrap tp</title>
   </head>
   <body>
 
-    <div class="row" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 "style="border: 1px solid red;">
-            <img src="image/logo.svg">
-        <div id="block" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"style="border: 1px solid blue;">
-            <p>Accomodations</p>
+    <nav class="navbar navbar-light navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#monMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Nom du site</a>
+            </div>
+            <img src="image/loupe.jpg">                   
+
+            <div class="collapse navbar-collapse" id="monMenu">
+                <ul class="nav navbar-nav">
+                    <li><a href="#"><p2><strong>Accommodations</strong></p2></a></li>
+                    <li><a href="#"><p2><strong>Discover</strong></p2></a></li>
+                    <li><a href="#"><p2><strong>Map</strong></p2></a></li>
+                    <li><a href="#"><p2><strong>About</strong></p2></a></li>
+                    <li><a href="#"><p2><strong>Blog</strong></p2></a></li>
+                    <li><a href="#"><p2><strong>Shop</strong></p2></a></li>
+                    
+                </ul>
+            </div>
         </div>
-        <div id="block1" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-            <p>Discover</p>
-        </div>
-        <div id="block2" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-            <p>Map</p>
-        </div>
-        <div id="block3" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-            <p>About</p>
-        </div>
-        <div id="block4" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-            <p>Blog</p>
-        </div>
-        <div id="block5" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-            <p>Shop</p>
-        </div>
-        <div id="block5" class="col-lg-1 col-md-1 col-sm-1 col-xs-1"style="border: 1px solid blue;">
-           <p>recehrche</p>
-        </div>
-            
-        
-    </div>
+    </nav>
+
+
+
     <div id="monCarousel" class="carousel slide" data-ride="carousel" >
         <ol class="carousel-indicators">
             
@@ -49,32 +55,32 @@
             <div class="item active">
                 <img src="image/slide1.png">
                 <div class="carousel-caption">
-                    <h1>ROBERT'S HILL GETAWAY</h1>
-                    <p>A Unique Experience Under the Sky</p>
-                    <p>View House</p>
+                    <h2>ROBERT'S HILL GETAWAY</h2>
+                    <h1>A Unique Experience Under the Sky</h1>
+                    <strong><p2><button class="glow-on-hover" type="button">View House</button></p2></strong>
+
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img src="image/slide2.png">
                 <div class="carousel-caption">
-                    <h1>ROBERT'S HILL GETAWAY</h1>
-                    <p>A Unique Experience Under the Sky</p>
-                    <p>View House</p>
+                    <h2>ROBERT'S HILL GETAWAY</h2>
+                    <h1>A Unique Experience Under the Sky</h1>
+                    <strong><p2><button class="glow-on-hover" type="button">View House</button></p2></strong>
                 </div>
             </div>
 
             <div class="carousel-item">
                 <img src="image/slide3.png">
                 <div class="carousel-caption">
-                    <h1>ROBERT'S HILL GETAWAY</h1>
-                    <p>A Unique Experience Under the Sky</p>
-                    <p>View House</p>
+                    <h2>ROBERT'S HILL GETAWAY</h2>
+                    <h1>A Unique Experience Under the Sky</h1>
+                    <strong><p2><button class="glow-on-hover" type="button">View House</button></p2></strong>
                 </div>
             </div>
         </div>
 
-   
 
 
         <a href="#monCarousel" class="left carousel-control" role="button" data-slide="prev">
@@ -88,38 +94,29 @@
 
 
     <div class="container-fluid" > 
-
-
-
-            <div id="block2" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 "style="border: 1px solid red;">
-                <h1>ROBERT'S HILL GETAWAY</h1>
-                <p>A Unique Experience Under the Sky</p>
-                <p>View House</p>
-            </div>
-
-        
-        <p>Latest Homes</p>
+    
+        <p2><strong>Latest Homes</strong></p2>
 
         <div class="row">
             <div id="block1" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"style="border: 1px solid green;">
                 
                 <img src="image/image1.jpeg" class="img-responsive">
-                <h1>NORTH SEA</h1>
-                <p>Holiday House Husum</p>
+                <p1>NORTH SEA</p1>
+                <p2><strong>Holiday House Husum</strong></p2>
                 
             </div>
             <div id="block2" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"style="border: 1px solid yellow;">
 
                 <img src="image/image2.png" class="img-responsive">
-                <h1>ALPS</h1>
-                <p>Panorama Suites</p>
+                <p1>ALPS</p1>
+                <p2><strong>Panorama Suites</strong></p2>
                 
             </div>
             <div id="block3" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"style="border: 1px solid black;">
 
                 <img src="image/image3.png" class="img-responsive">
-                <h1>ROME REGION</h1>
-                <p>Villa Lorenzo</p>
+                <p1>ROME REGION</p1>
+                <p2><strong>Villa Lorenzo</strong></p2>
                 
             </div>
         </div>
@@ -127,56 +124,60 @@
         <div id="midtexte">
             <div id="block" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
                 
-                <h1>WHAT MAKES US SPECIAL</h1>
-                <p>We provide a network of exclusive, one-of-a-kind holiday homes to help you plan a safe, relaxing and unforgettable vacation.</p>
+                <p1>WHAT MAKES US SPECIAL</p1>
+                <p2><strong>We provide a network of exclusive, one-of-a-kind holiday homes to help you plan a safe, relaxing and unforgettable vacation.</strong></p2>
             </div>
         </div>
 
         <div class="row">
             <div id="blockA" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid blue;">
                 <img src="image/icon1.svg" class="img-responsive">
-                <p>Handpicked Locations</p>
-                <p>gdnflgndlhnfghnmlhnfls</p>
+                <p2><strong>Handpicked Locations</strong></p2>
+                <p3>gdnflgndlhnfghnmlhnfls</p3>
             </div>
             <div id="blockB" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid red;">
                 <img src="image/icon.svg" class="img-responsive">
-                <p>Exclusive Experiences</p>
-                <p>ghrjnhksfdghnmls</p>
+                <p2><strong>Exclusive Experiences</strong></p2>
+                <p3>ghrjnhksfdghnmls</p3>
             </div>
         </div>
 
         <div class="row">
             <div id="blockC" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid blue;">
                 <img src="image/icon3.svg" class="img-responsive">
-                <p>Unique Design</p>
-                <p>gdfnjkghdhljksQG?N:</p>
+                <p2><strong>Unique Design</strong></p2>
+                <p3>gdfnjkghdhljksQG?N:</p3>
             </div>
             <div id="blockD" class="col-lg-6 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid red;">
                 <img src="image/icon2.svg" class="img-responsive">
-                <p>Sustainable Architecture</p>
-                <p>gsrdoigdhgijnodshgn</p>
+                <p2><strong>Sustainable Architecture</strong></p2>
+                <p3>gsrdoigdhgijnodshgn</p3>
             </div>
         </div>
 
         <div class="row">
             <div id="block1" class="col-lg-4 col-md-4 col-sm-12 col-xs-12"style="border: 1px solid blue;">
-                <p>Cozy places</p>
-                <p>gvbfdihghtfiudhgirop</p>
-                <p>Discover me</p>
+                <strong><p2>Cozy Places</p2></strong>
+                <br>
+                <p3>gvbfdihghtfiudhgirop</p3>
+                <br>
+                <p2><strong><button class="glow-on-hover1" type="button">Discover me</button></strong></p2>
                 <img src="image/imageC.png" class="img-responsive">
 
             </div>
             <div id="block2" class="col-lg-4 col-md-4 col-sm-6 col-xs-12"style="border: 1px solid blue;">
 
                 <img src="image/image11.png" class="img-responsive">
-                <p>VESTERALEN</p>
-                <P>Lykkelig Hytta</P>
+                <p1>VESTERALEN</p1>
+                <br>
+                <p2><strong>Lykkelig Hytta</strong></p2>
             </div>
             <div id="block3" class="col-lg-4 col-md-4 col-sm-6 col-xs-12"style="border: 1px solid blue;">
 
                 <img src="image/image22.png" class="img-responsive">
-                <p>HIGHLANDS</p>
-                <P>Cosy Holiday Cottage</P>
+                <p1>HIGHLANDS</p1>
+                <br>
+                <p2><strong>Cosy Holiday Cottage</strong></p2>
             </div>
         </div>
 
@@ -184,151 +185,162 @@
         <div class="row">
             <div id="blockI1" class="col-lg-2 col-md-2 col-sm-6 col-xs-4"style="border: 1px solid black;">
                 <img src="image/image33.png" class="img-responsive">
-                <p>LONDON REGION</p>
-                <p>Luxurious Lodge Near Rochester</p>
+                <p1>LONDON REGION</p1>
+                <br>
+                <p2><strong>Luxurious Lodge Near Rochester</strong></p2>
             </div>
             <div id="blockI2" class="col-lg-2 col-md-2 col-sm-6 col-xs-4"style="border: 1px solid black;">
                 <img src="image/image44.png" class="img-responsive">
-                <p>LONDON REGION</p>
-                <p>Snug Apartment With Fireplace</p>
+                <p1>LONDON REGION</p1>
+                <br>
+                <p2><strong>Snug Apartment With Fireplace</strong></p2>
             </div>
         </div>
 
 
-        <p>Get Inspired View All</p>
+        <p2><strong>Get Inspired View All</strong></p2>
 
         <div class="row">
             <div id="blockA" class="col-lg-12 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid black;">
-                <p>Exclusive Architecture</p>
-                <p>Discover</p>
+                <p4>Exclusive Architecture</p4>
+                <br>
+                <p2><strong><button class="glow-on-hover" type="button">Discover</button></strong></p2>
                 <img src="image/image12.png" class="img-responsive">
             </div>
             <div id="blockB" class="col-lg-4 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid black;">
-                <p>Family Vacation</p>
-                <p>Discover</p>
+                <p4>Family Vacation</p4>
+                <br>
+                <p2><strong><button class="glow-on-hover" type="button">Discover</button></strong></p2>
                 <img src="image/image22.png" class="img-responsive">
             </div>
             <div id="blockC" class="col-lg-4 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid black;">
-                <p>Near the Beach</p>
-                <p>Discover</p>
+                <p4>Near the Beach</p4>
+                <br>
+                <p2><strong><button class="glow-on-hover" type="button">Discover</button></strong></p2>
                 <img src="image/image32.png" class="img-responsive">
             </div>
             <div id="blockD" class="col-lg-4 col-md-6 col-sm-6 col-xs-12"style="border: 1px solid black;">
-                <p>Winter Escapes</p>
-                <p>Discover</p>
+                <p4>Winter Escapes</p4>
+                <br>
+                <p2><strong><button class="glow-on-hover" type="button">Discover</button></strong></p2>
                 <img src="image/image42.png" class="img-responsive">
             </div>
         </div>
 
         <div class="row">
             <div id="blockA" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
-                <p>More Inspiration</p>
+                <p2><strong>More Inspiration</strong></p2>
             </div>
             <div id="blockB" class="col-lg-4 col-md-4 col-sm-12 col-xs-0"style="border: 1px solid black;">
-                <p>Cozy Places</p>
+                <p3><p>Cozy Places</p>
                 <p>Exclusive Architecture</p>
                 <p>Family Vacation</p>
-                <p>In the Mountains</p>
+                <p>In the Mountains</p></p3>
             </div>
             <div id="blockC" class="col-lg-4 col-md-4 col-sm-12 col-xs-0"style="border: 1px solid black;">
-                <p>In the Woods</p>
+                <p3><p>In the Woods</p>
                 <p>Near The Beach</p>
-                <p>Pets Welcome</p>
+                <p>Pets Welcome</p></p3>
             </div>
             <div id="blockD" class="col-lg-4 col-md-4 col-sm-12 col-xs-0"style="border: 1px solid black;">
-                <p>Tiny Homes</p>
+                <p3><p>Tiny Homes</p>
                 <p>Urban Chic</p>
-                <p>Winter Escapes</p>
+                <p>Winter Escapes</p></p3>
             </div>
         </div>
 
         <div class="row">
-            <div id="blockA" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
-                <p>Get listed today and become part of the most exclusive luxury vacation home network worldwide</p>
-                <p>gfdnjikgjil</p>
-                <p>Contact Us</p>
-                <p>Read the FAQ</p>
+            <div id="blockAAA" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
+                <p2><strong>Get listed today and become part of the most exclusive luxury vacation home network worldwide</strong></p2>
+                <p3>gfdnjikgjil</p3>
+                <p4><strong><button class="glow-on-hover1" type="button">Contact Us</button></strong></p4>
+                <p2><strong><button class="glow-on-hover2" type="button">Read the FAQ</button></strong></p4>
                 <img src="image/imageI.svg" class="img-responsive">
             </div>
         </div>
 
         <div class="row">
             <div id="blockA" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
-                <p>Latest Articles    View All</p>
+                <p2><strong>Latest Articles    View All</strong></p2>
             </div>
         </div>
 
         <div class="row">
             <div id="blockA" class="col-lg-4 col-md-4 col-sm-4 col-xs-12"style="border: 1px solid black;">
                 <img src="image/image13.png" class="img-responsive">
-                <p>INSPIRATION</p>
-                <p>Warn Breeze and the Scent of Lavender - Why we Love Provence</p>
-                <p>fdgjbklfghbdwfghbikl</p>
+                <p1>INSPIRATION</p1>
+                <p2><strong>Warn Breeze and the Scent of Lavender - Why we Love Provence</strong></p2>
+                <p3>fdgjbklfghbdwfghbiklgdfolghnhfgmonmohijm</p3>
             </div>
             <div id="blockB" class="col-lg-4 col-md-4 col-sm-4 col-xs-0"style="border: 1px solid black;">
                 <img src="image/image23.png" class="img-responsive">
-                <p>COMMUNITY STORIES</p>
-                <p>The Art of Letting GO - How to Relax on Vacation</p>
-                <p>ghk,lfdlhljk,fglkmh</p>
+                <p1>COMMUNITY STORIES</p1>
+                <p2><strong>The Art of Letting GO - How to Relax on Vacation</strong></p2>
+                <p3>ghk,lfdlhljk,fglkmhhjgjfhfgfjkgfhjkfkhj</p3>
             </div>
             <div id="blockC" class="col-lg-4 col-md-4 col-sm-4 col-xs-0"style="border: 1px solid black;">
                 <img src="image/image333.png" class="img-responsive">
-                <p>COMMUNITY STORIES</p>
-                <p>Things I Wish I Had Know Before I Started Traveling With Kids</p>
-                <p>hfgnlhnfjkl</p>
+                <p1>COMMUNITY STORIES</p1>
+                <p2><strong>Things I Wish I Had Know Before I Started Traveling With Kids</strong></p2>
+                <p3>hfgnlhnfjklreyritoyjtfpdyjoifptyjiftopjhyifposthyjiodfh</p3>
             </div>
         </div>
 
-
+ 
         <div class="row">
-            <div id="blockA" class="col-lg-3 col-md-3 col-sm-12 col-xs-12"style="border: 1px solid black;">
-                <p>Never Miss Your Next Dream Holidays</p>
+            <div id="blockAA" class="col-lg-3 col-md-3 col-sm-12 col-xs-12"style="border: 1px solid black;">
+                <p4>Never Miss Your Next Dream Holidays</p4>
             </div>
-            <div id="blockB" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+            <div id="blockAA" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+
+                <p3>First name</p3>
                 <img src="image/logoI.svg" class="img-responsive">
-                <p>First name</p>
             </div>
-            <div id="blockC" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+            <div id="blockAA" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+
+                <p3>Last name</p3>
                 <img src="image/logoI.svg" class="img-responsive">
-                <p>Last name</p>
             </div>
-            <div id="blockC" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+            <div id="blockAA" class="col-lg-2 col-md-2 col-sm-3 col-xs-0"style="border: 1px solid black;">
+
+                <p3>Email address</p3>
                 <img src="image/logoI.svg" class="img-responsive">
-                <p>Email address</p>
             </div>
-            <div id="blockC" class="col-lg-3 col-md-3 col-sm-3 col-xs-0"style="border: 1px solid black;">
-                <p>Sign up</p>
+            <div id="blockAA" class="col-lg-3 col-md-3 col-sm-3 col-xs-0"style="border: 1px solid black;">
+                <p4>Sign up</p4>
+
             </div>
         </div>
+    
 
         <div class="row">
             <div id="blockA" class="col-lg-3 col-md-12 col-sm-12 col-xs-12"style="border: 1px solid black;">
                 <img src="image/logo.svg" class="img-responsive">
-                <p>Ut consequat semper viverra nam libero. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel. </p>
+                <p3>Ut consequat semper viverra nam libero. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel. </p3>
             </div>
             <div id="blockB" class="col-lg-3 col-md-4 col-sm-6 col-xs-6"style="border: 1px solid black;">
-                <p>Discover</p>
-                <ul>Norway</ul>
+                <p1>Discover</p1>
+                <p3><ul>Norway</ul>
                 <ul>Great Britain</ul>
                 <ul>Spain</ul>
                 <ul>Germany</ul>
                 <ul>Italy</ul>
-                <ul>France</ul>
+                <ul>France</ul></p3>
             </div>
             <div id="blockC" class="col-lg-3 col-md-4 col-sm-6 col-xs-6"style="border: 1px solid black;">
-                <p>Accommodations</p>
-                <ul>Apartments</ul>
+                <p1>Accommodations</p1>
+                <p3><ul>Apartments</ul>
                 <ul>Cottages</ul>
                 <ul>Houses</ul>
-                <ul>Villas</ul>
+                <ul>Villas</ul></p3>
             </div>
             <div id="blockC" class="col-lg-3 col-md-4 col-sm-0 col-xs-0"style="border: 1px solid black;">
                 
-                <p>DESIGN ESCAPES</p>
-                <ul>About</ul>
+                <p1>DESIGN ESCAPES</p1>
+                <p3><ul>About</ul>
                 <ul>Contact</ul>
                 <ul>Blog</ul>
-                <ul>FAQ</ul>
+                <ul>FAQ</ul></p3>
             </div>
         </div>
 
@@ -349,8 +361,7 @@
 
         </div>
 
-        <p>© 2021 Design Escape. All rights reserved. Powered by YOOtheme.</p>
-
+        <p4>© 2021 Design Escape. All rights reserved. Powered by</p4><p1>YOOtheme.</p1>
 
 
 
